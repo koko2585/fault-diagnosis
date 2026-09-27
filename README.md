@@ -46,6 +46,7 @@ README.md               # Project documentation and workflow overview
 
 ### Although the model and dataset are relatively small, the project focuses on demonstrating a complete and practical ML workflow, from EDA and baseline comparison to hyperparameter tuning, experiment tracking, model persistence, and inference validation.
 
+
 🚀 Project Workflow & Approach
 Exploratory Data Analysis (01_eda.ipynb):
 
@@ -71,12 +72,14 @@ Retrained the optimized model pipeline on the full dataset.
 
 Serialized the model using joblib inside the models/ directory and successfully tested inference using the saved artifact.
 
+
 📊 Results & Key Findings
 Baseline Performance: Random Forest and LightGBM achieved strong initial accuracies (~96% to 97%).
 
 Tuned Performance: Hyperparameter tuning stabilized cross-validation performance around ~95.9%.
 
 Feature Insights: Vibration features such as standard deviation (sd) and root mean square (rms) showed high correlation, while others like mean and skewness provided unique independent signals.
+
 
 🛠️ Tech Stack
 Python
@@ -90,6 +93,7 @@ LightGBM & XGBoost (Gradient Boosting)
 Seaborn & Matplotlib (Data Visualization)
 
 Joblib (Model Serialization)
+
 
 💡 What We Learned
 Modularizing reusable functions into the src/ directory drastically reduces code duplication across notebooks.
