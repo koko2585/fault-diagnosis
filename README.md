@@ -28,14 +28,14 @@ This repository demonstrates a modular, production-ready approach from explorato
 
 ## 📁 Project Structure
 
-├── 01_eda.ipynb            # Data exploration, distributions, correlation analysis, and class balance checks
-├── 02_baseline_models.ipynb # Initial comparison of untuned models (Logistic Regression, RF, LightGBM, XGBoost, DNN)
-├── 03_tuning.ipynb         # Hyperparameter optimization using RandomizedSearchCV and best parameter selection
-├── 04_final_pipeline.ipynb # Retraining the best model on full data and serializing artifacts using joblib
-├── 05_test_joblib          # Verification and testing of the saved joblib model against dataset samples
-├── src/                    # Due to the small dataset and the modular nature of the model workflow, there are very few reusable functions in this project.
-├── models/                 # Storage directory for saved .joblib model artifacts
-└── README.md               # Project documentation and workflow overview
+01_eda.ipynb            # Data exploration, distributions, correlation analysis, and class balance checks
+02_baseline_models.ipynb # Initial comparison of untuned models (Logistic Regression, RF, LightGBM, XGBoost, DNN)
+03_tuning.ipynb         # Hyperparameter optimization using RandomizedSearchCV and best parameter selection
+04_final_pipeline.ipynb # Retraining the best model on full data and serializing artifacts using joblib
+05_test_joblib          # Verification and testing of the saved joblib model against dataset samples
+src/                    # Due to the small dataset and the modular nature of the model workflow, there are very few reusable functions in this project.
+models/                 # Storage directory for saved .joblib model artifacts
+README.md               # Project documentation and workflow overview
 ### Although the model and dataset are relatively small, the project focuses on demonstrating a complete and practical ML workflow, from EDA and baseline comparison to hyperparameter tuning, experiment tracking, model persistence, and inference validation.
 
 🚀 Project Workflow & Approach
