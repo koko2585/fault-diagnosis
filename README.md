@@ -34,7 +34,7 @@ fault-diagnosis
 ├── 03_tuning.ipynb         # Hyperparameter optimization using RandomizedSearchCV and best parameter selection
 ├── 04_final_pipeline.ipynb # Retraining the best model on full data and serializing artifacts using joblib
 ├── 05_test_joblib          # Verification and testing of the saved joblib model against dataset samples
-├── src/                    # Reusable Python modules (preprocessing pipelines, evaluation metrics, etc.)
+├── src/                    # Due to the small dataset and the modular nature of the model workflow, there are very few reusable functions in this project.
 ├── models/                 # Storage directory for saved .joblib model artifacts
 └── README.md               # Project documentation and workflow overview
 
