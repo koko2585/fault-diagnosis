@@ -17,7 +17,7 @@ This project focuses on **Mechanical Fault Diagnosis** using vibration signal an
   * **Dimensionless/Waveform Stats:** `crest` factor, `form` factor
 * **Target Classes (`fault`):** Various bearing fault conditions (such as ball faults, inner/outer race faults) alongside normal operating states.
 
-###D Dataset source: (https://www.kaggle.com/code/brjapon/crwu-bearings-svm-fault-classification)
+### Dataset source: (https://www.kaggle.com/code/brjapon/crwu-bearings-svm-fault-classification)
 
 # Fault Diagnosis Pipeline
 
