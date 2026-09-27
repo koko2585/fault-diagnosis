@@ -44,7 +44,8 @@ models/                 # Storage directory for saved .joblib model artifacts
 
 README.md               # Project documentation and workflow overview
 
-### Although the model and dataset are relatively small, the project focuses on demonstrating a complete and practical ML workflow, from EDA and baseline comparison to hyperparameter tuning, experiment tracking, model persistence, and inference validation.
+### Although the model and dataset are relatively small, the project focuses on demonstrating a complete and practical ML workflow, 
+from EDA and baseline comparison to hyperparameter tuning, experiment tracking, model persistence, and inference validation.
 
 
 🚀 Project Workflow & Approach
