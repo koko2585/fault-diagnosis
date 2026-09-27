@@ -29,7 +29,6 @@ This repository demonstrates a modular, production-ready approach from explorato
 ## 📁 Project Structure
 
 01_eda.ipynb            # Data exploration, distributions, correlation analysis, and class balance checks
-
 02_baseline_models.ipynb # Initial comparison of untuned models (Logistic Regression, RF, LightGBM, XGBoost, DNN)
 
 03_tuning.ipynb         # Hyperparameter optimization using RandomizedSearchCV and best parameter selection
